@@ -1,5 +1,5 @@
 exports.seed = function(knex) {
-  // Deletes ALL existing entries and  reset primary keys
+  // Deletes ALL existing entries and reset primary keys
   return knex('inventory')
     .truncate()
     .then(function() {
