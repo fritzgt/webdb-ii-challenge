@@ -14,6 +14,9 @@ module.exports = {
   migrations: {
     directory: './migrations'
   },
+  //seeds for dummy data
+  //To run it use command
+  //npx knex seed:run
   seeds: {
     directory: './seeds'
   }
